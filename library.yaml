@@ -70,6 +70,14 @@ library:
       source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/harden/SKILL.md
       requires: [skill:frontend-design]
 
+    - name: ingest
+      description: Ingest a codebase into memory as agent-optimized navigation maps, patterns, gotchas, and config.
+      source: https://github.com/matt-antone/ai-library/blob/main/skills/ingest/SKILL.md
+
+    - name: update
+      description: Update previously ingested codebase memories when files have changed. Targeted refresh — replaces only stale memories and links them via supersedes edges.
+      source: https://github.com/matt-antone/ai-library/blob/main/skills/update/SKILL.md
+
     - name: openspec-apply-change
       description: Implement tasks from an OpenSpec change (Experimental)
       source: https://github.com/matt-antone/ai-library/blob/main/skills/openspec-apply-change/SKILL.md
