@@ -1,5 +1,5 @@
 ---
-name: update
+name: update-project-memory
 description: Update previously ingested codebase memories when files have changed. Replaces stale navigation maps, patterns, gotchas, or config memories with fresh ones and links them via supersedes edges.
 ---
 
