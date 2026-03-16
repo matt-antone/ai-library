@@ -70,6 +70,22 @@ library:
       source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/harden/SKILL.md
       requires: [skill:frontend-design]
 
+    - name: openspec-apply-change
+      description: Implement tasks from an OpenSpec change (Experimental)
+      source: https://github.com/matt-antone/ai-library/blob/main/skills/openspec-apply-change/SKILL.md
+
+    - name: openspec-archive-change
+      description: Archive a completed OpenSpec change after implementation is done
+      source: https://github.com/matt-antone/ai-library/blob/main/skills/openspec-archive-change/SKILL.md
+
+    - name: openspec-explore
+      description: OpenSpec explore mode - think through ideas, investigate problems, clarify requirements
+      source: https://github.com/matt-antone/ai-library/blob/main/skills/openspec-explore/SKILL.md
+
+    - name: openspec-propose
+      description: Propose a new OpenSpec change and generate all artifacts (proposal, specs, design, tasks) in one step
+      source: https://github.com/matt-antone/ai-library/blob/main/skills/openspec-propose/SKILL.md
+
     - name: normalize
       description: Normalize design to match your design system and ensure consistency
       source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/normalize/SKILL.md
