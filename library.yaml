@@ -103,4 +103,8 @@ library:
     - name: ai-memory
       description: Agent instructions for using the ai-memory Supabase-backed MCP memory and recall system
       source: https://github.com/matt-antone/ai-memory/blob/main/AGENTS.md
+
+    - name: ai-memory-claude
+      description: Developer guidance for working with the ai-memory codebase (architecture, commands, testing, and MCP tool details)
+      source: https://github.com/matt-antone/ai-memory/blob/main/CLAUDE.md
   prompts: []
