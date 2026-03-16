@@ -10,6 +10,94 @@ default_dirs:
     - global: ~/.claude/commands/
 
 library:
-  skills: []
+  skills:
+    - name: adapt
+      description: Adapt designs to work across different screen sizes, devices, contexts, or platforms
+      source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/adapt/SKILL.md
+      requires: [skill:frontend-design]
+
+    - name: animate
+      description: Add purposeful motion and micro-interactions that improve usability and delight
+      source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/animate/SKILL.md
+      requires: [skill:frontend-design]
+
+    - name: audit
+      description: Comprehensive interface quality audit across accessibility, performance, theming, and responsive design
+      source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/audit/SKILL.md
+      requires: [skill:frontend-design]
+
+    - name: bolder
+      description: Amplify safe or boring designs to make them more visually interesting and stimulating
+      source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/bolder/SKILL.md
+      requires: [skill:frontend-design]
+
+    - name: clarify
+      description: Improve unclear UX copy, error messages, microcopy, labels, and instructions
+      source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/clarify/SKILL.md
+      requires: [skill:frontend-design]
+
+    - name: colorize
+      description: Add strategic color to features that are too monochromatic or lack visual interest
+      source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/colorize/SKILL.md
+      requires: [skill:frontend-design]
+
+    - name: critique
+      description: Evaluate design effectiveness from a UX perspective — visual hierarchy, information architecture, emotional resonance
+      source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/critique/SKILL.md
+      requires: [skill:frontend-design]
+
+    - name: delight
+      description: Add moments of joy, personality, and unexpected touches that make interfaces memorable
+      source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/delight/SKILL.md
+      requires: [skill:frontend-design]
+
+    - name: distill
+      description: Strip designs to their essence by removing unnecessary complexity
+      source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/distill/SKILL.md
+      requires: [skill:frontend-design]
+
+    - name: extract
+      description: Extract and consolidate reusable components, design tokens, and patterns into your design system
+      source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/extract/SKILL.md
+      requires: [skill:frontend-design]
+
+    - name: frontend-design
+      description: Comprehensive frontend design skill with 7 domain-specific references (typography, color, spatial, motion, interaction, responsive, ux-writing)
+      source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/frontend-design/SKILL.md
+
+    - name: harden
+      description: Improve interface resilience through better error handling, i18n support, text overflow handling, and edge cases
+      source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/harden/SKILL.md
+      requires: [skill:frontend-design]
+
+    - name: normalize
+      description: Normalize design to match your design system and ensure consistency
+      source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/normalize/SKILL.md
+      requires: [skill:frontend-design]
+
+    - name: onboard
+      description: Design or improve onboarding flows, empty states, and first-time user experiences
+      source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/onboard/SKILL.md
+      requires: [skill:frontend-design]
+
+    - name: optimize
+      description: Improve interface performance across loading speed, rendering, animations, images, and bundle size
+      source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/optimize/SKILL.md
+      requires: [skill:frontend-design]
+
+    - name: polish
+      description: Final quality pass before shipping — fixes alignment, spacing, consistency, and detail issues
+      source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/polish/SKILL.md
+      requires: [skill:frontend-design]
+
+    - name: quieter
+      description: Tone down overly bold or visually aggressive designs while maintaining quality and impact
+      source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/quieter/SKILL.md
+      requires: [skill:frontend-design]
+
+    - name: teach-impeccable
+      description: One-time setup that gathers design context for your project and saves it to your AI config file
+      source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/teach-impeccable/SKILL.md
+
   agents: []
   prompts: []
