@@ -123,4 +123,19 @@ library:
     - name: ai-memory-claude
       description: Developer guidance for working with the ai-memory codebase (architecture, commands, testing, and MCP tool details)
       source: https://github.com/matt-antone/ai-memory/blob/main/CLAUDE.md
-  prompts: []
+  prompts:
+    - name: opsx-apply
+      description: Slash command to implement tasks from an OpenSpec change
+      source: https://github.com/matt-antone/ai-library/blob/main/commands/opsx/apply.md
+
+    - name: opsx-archive
+      description: Slash command to archive a completed OpenSpec change
+      source: https://github.com/matt-antone/ai-library/blob/main/commands/opsx/archive.md
+
+    - name: opsx-explore
+      description: Slash command for OpenSpec explore mode - think through ideas and clarify requirements
+      source: https://github.com/matt-antone/ai-library/blob/main/commands/opsx/explore.md
+
+    - name: opsx-propose
+      description: Slash command to propose a new OpenSpec change with all artifacts generated in one step
+      source: https://github.com/matt-antone/ai-library/blob/main/commands/opsx/propose.md
