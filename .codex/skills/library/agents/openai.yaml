@@ -1,0 +1,4 @@
+interface:
+  display_name: "Library"
+  short_description: "Manage private skill catalog"
+  default_prompt: "Use $library to manage skills, agents, and prompts in the private catalog."
