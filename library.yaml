@@ -70,11 +70,11 @@ library:
       source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/harden/SKILL.md
       requires: [skill:frontend-design]
 
-    - name: ingest
+    - name: ingest-project
       description: Ingest a codebase into memory as agent-optimized navigation maps, patterns, gotchas, and config.
       source: https://github.com/matt-antone/ai-library/blob/main/skills/ingest/SKILL.md
 
-    - name: update-project-memory
+    - name: update-project
       description: Update previously ingested codebase memories when files have changed. Targeted refresh — replaces only stale memories and links them via supersedes edges.
       source: https://github.com/matt-antone/ai-library/blob/main/skills/update-project-memory/SKILL.md
 
