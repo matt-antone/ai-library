@@ -99,5 +99,8 @@ library:
       description: One-time setup that gathers design context for your project and saves it to your AI config file
       source: https://github.com/pbakaus/impeccable/blob/main/.claude/skills/teach-impeccable/SKILL.md
 
-  agents: []
+  agents:
+    - name: ai-memory
+      description: Agent instructions for using the ai-memory Supabase-backed MCP memory and recall system
+      source: https://github.com/matt-antone/ai-memory/blob/main/AGENTS.md
   prompts: []
