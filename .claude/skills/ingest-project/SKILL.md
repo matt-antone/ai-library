@@ -1,5 +1,5 @@
 ---
-name: ingest
+name: ingest-project
 description: Ingest Codebase into Memory
 ---
 
